@@ -10,6 +10,7 @@ import Constants from "expo-constants";
 
 import RadioButtonRN from "radio-buttons-react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
+import HeaderPage from "../Component/HeaderPage";
 
 // You can import from local files
 // import AssetExample from './components/AssetExample';
@@ -31,6 +32,7 @@ const data = [
 export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
+      <HeaderPage title="เช่า-ซื้อ" navigation={navigation}/>
       <ScrollView>
         <Text style={styles.paragraph}>เช่า-ซื้อ</Text>
 

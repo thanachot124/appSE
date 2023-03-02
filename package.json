@@ -9,12 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@native-base/expo-template": "^1.2.1",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.5",
     "@react-navigation/stack": "^6.3.15",
     "expo": "~48.0.4",
     "expo-image-picker": "^14.1.1",
     "expo-status-bar": "~1.4.4",
+    "native-base": "^3.4.26",
     "radio-buttons-react-native": "^1.0.4",
     "react": "18.2.0",
     "react-native": "0.71.3",
