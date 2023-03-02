@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { Text, View, StyleSheet,Image,Button, ScrollView } from 'react-native';
+import { Text, View, StyleSheet,Image,Button } from 'react-native';
 import Constants from 'expo-constants';
 import { AntDesign } from '@expo/vector-icons';
 import * as Progress from 'react-native-progress';
-
 
 
 
@@ -12,11 +11,12 @@ import * as Progress from 'react-native-progress';
 
 // or any pure javascript modules available in npm
 
-export default function Home({navigation}) {
+
+export default function Finish({navigation}) {
   return (
     <View style={styles.container}>
     
-    <ScrollView>
+    
      
       <Text style={styles.paragraph}>
       
@@ -65,7 +65,7 @@ export default function Home({navigation}) {
     </View>
        
       </View>
-      </ScrollView>
+      
       </View>
     
     

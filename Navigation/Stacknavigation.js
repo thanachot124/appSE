@@ -1,9 +1,9 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from "../src/Home"
-import Sale from "../src/sale" 
-import Accept from "../src/accept"
-import Verify from "../src/verify"
-import Finish from "../src/finish"
+import Sale from "../src/Sale" 
+import Accept from "../src/Accept"
+import Verify from "../src/Verify"
+import Finish from "../src/Finish"
 
 
 const Stack = createStackNavigator();
