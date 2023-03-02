@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { Text, View, StyleSheet, Image, Button } from 'react-native';
+import Constants from 'expo-constants';
+
+import MyStack from './navigation/Stacknavigation';
+
+import { NavigationContainer } from '@react-navigation/native';
+import Home  from './src/Home';
+import { Card } from 'react-native-paper';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <NavigationContainer>
+    //   <MyStack />
+    // </NavigationContainer>
+    <Home></Home>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
